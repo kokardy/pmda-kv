@@ -1,4 +1,4 @@
-from golang:alpine
+from golang:1.15-alpine
 
 RUN apk --update add wget grep bash httpie supervisor git coreutils && rm -rf /var/cache/apk/*
 RUN go get github.com/gin-gonic/gin
