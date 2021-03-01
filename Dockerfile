@@ -1,4 +1,4 @@
-from golang:alpine
+FROM golang:alpine
 
 RUN apk --update add wget grep bash httpie supervisor git coreutils && rm -rf /var/cache/apk/* \
     && mkdir -p /asset/data
