@@ -32,3 +32,5 @@ wget -q -c $url -O $output
 if [ $xxx = "html" ]; then
 	sh ./extractYJ.sh $output
 fi
+
+sleep 1

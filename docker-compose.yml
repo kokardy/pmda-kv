@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  pmda-kv:
+    image: kokardy/pmda-kv
+    volumes:
+      - ./asset/bin/yj:/asset/bin/yj
+      - ./searchresult:/asset/data/searchresult
+    working_dir: /asset/bin
+    command: ["./Routine.sh", "/asset/data"]

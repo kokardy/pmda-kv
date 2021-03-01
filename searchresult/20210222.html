@@ -154,13 +154,7 @@ var resultTableColArr = [
 // 常に表示する項目(検索結果出力項目選択用)
 var resultTableDefaultDispColArr = {
 
-  "RD" : [
-  
-    ["1", "種類"], 
-  
-    ["1", "文書の名称"], 
-  
-    ["1", "日付"], 
+  "BOOK" : [
   
     ["1", "一般名"], 
   
@@ -170,7 +164,13 @@ var resultTableDefaultDispColArr = {
   
   ], 
 
-  "BOOK" : [
+  "RD" : [
+  
+    ["1", "種類"], 
+  
+    ["1", "文書の名称"], 
+  
+    ["1", "日付"], 
   
     ["1", "一般名"], 
   
@@ -1068,7 +1068,7 @@ function exportSearchResult(exportType) {
 <div id='SearchWrap02' class='clearfix'>
 <h2 class='SearchTit01'>検索結果</h2>
 <div class='SearchResultMenu mb_15 first'>
-<p class='col23 PageNavi'><strong>検索結果6件／全1ページ</strong><BR><BR>
+<p class='col23 PageNavi'><strong>検索結果10件／全1ページ</strong><BR><BR>
 <span>1</span></p>
 <p class='col1'><input value='表示する文書を変更' type='image' src='/PmdaSearch/iyakuSearch/../files/img/search/SearchBtn08.gif' onClick='JavaScript:displaySelect(event); return false;'></p>
 <p>
@@ -1088,20 +1088,28 @@ function exportSearchResult(exportType) {
 	<th scope='col' style='width:12em' nowrap>インタビュー<BR>フォーム</th>
 </tr>
 <tr class='TrColor01'>
-<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/6222001'>イソニアジド</a></div></td><td><div>イスコチン原末／イスコチン錠100mg</div></td><td><div>製造販売元／アルフレッサ ファーマ株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6222001F3037_3_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "530258_6222001F3037_3_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/530258_6222001F3037_3_02'>SGML</a></div></td><td></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/3/530258_6222001F3037_3_001_1F.pdf'>F1_イスコチン原末／イスコチン錠100mg</a></div></td></tr>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/6222001'>イソニアジド</a></div></td><td><div>イスコチン原末／イスコチン錠100mg</div></td><td><div>製造販売元／アルフレッサ ファーマ株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/530258_6222001F3037_3_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "530258_6222001F3037_3_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/530258_6222001F3037_3_02'>SGML</a></div></td><td></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/3/530258_6222001F3037_3_002_1F.pdf'>F1_イスコチン原末／イスコチン錠100mg</a></div></td></tr>
 <tr class='TrColor02'>
-<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/8119002'>オキシコドン塩酸塩水和物</a></div></td><td><div>オキシコドン内服液2.5mg「日本臓器」／オキシコドン内服液5mg「日本臓器」／オキシコドン内服液10mg「日本臓器」／オキシコドン内服液20mg「日本臓器」</div></td><td><div>製造販売元／日本臓器製薬株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_8119002S1027_1_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "530288_8119002S1027_1_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/530288_8119002S1027_1_02'>SGML</a></div></td><td></td><td></td></tr>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/13197C6'>エピナスチン塩酸塩</a></div></td><td><div>エピナスチン塩酸塩点眼液0.05%「センジュ」</div></td><td><div>製造販売元／千寿製薬株式会社</div><div>販売／武田薬品工業株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/380086_13197C6Q2110_1_03'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "380086_13197C6Q2110_1_03"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/380086_13197C6Q2110_1_03'>SGML</a></div></td><td></td><td></td></tr>
 <tr class='TrColor01'>
-<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/1190012'>ドネペジル塩酸塩</a></div></td><td><div>ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</div></td><td><div>製造販売元／株式会社　陽進堂</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190012F3096_1_11'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "830001_1190012F3096_1_11"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/830001_1190012F3096_1_11'>SGML</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/downfiles/ph/GUI/830001_1190012F3096_1_00G.pdf'>G_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/1/830001_1190012F3096_1_007_1F.pdf'>F1_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td></tr>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/8119002'>オキシコドン塩酸塩水和物</a></div></td><td><div>オキシコドン内服液2.5mg「日本臓器」／オキシコドン内服液5mg「日本臓器」／オキシコドン内服液10mg「日本臓器」／オキシコドン内服液20mg「日本臓器」</div></td><td><div>製造販売元／日本臓器製薬株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/530288_8119002S1027_1_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "530288_8119002S1027_1_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/530288_8119002S1027_1_02'>SGML</a></div></td><td></td><td></td></tr>
+<tr class='TrColor02'>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/259000A'>シルデナフィルクエン酸塩</a></div></td><td><div>シルデナフィル錠２５ｍｇＶＩ「ＦＣＩ」／シルデナフィル錠５０ｍｇＶＩ「ＦＣＩ」</div></td><td><div>製造販売元／富士化学工業株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/670082_259000AF1083_1_07'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "670082_259000AF1083_1_07"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/670082_259000AF1083_1_07'>SGML</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/downfiles/ph/GUI/670082_259000AF1083_1_00G.pdf'>G_シルデナフィル錠２５ｍｇＶＩ「ＦＣＩ」／シルデナフィル錠５０ｍｇＶＩ「ＦＣＩ」</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/1/670082_259000AF1083_1_005_1F.pdf'>F1_シルデナフィル錠２５ｍｇＶＩ「ＦＣＩ」／シルデナフィル錠５０ｍｇＶＩ「ＦＣＩ」</a></div></td></tr>
+<tr class='TrColor01'>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/11790C2'>デュロキセチン塩酸塩</a></div></td><td><div>デュロキセチンカプセル20mg「アメル」／デュロキセチンカプセル30mg「アメル」</div></td><td><div>製造販売元／共和薬品工業株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/672173_11790C2M1130_1_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "672173_11790C2M1130_1_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetXML/672173_11790C2M1130_1_02'>XML</a></div></td><td></td><td></td></tr>
 <tr class='TrColor02'>
 <td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/1190012'>ドネペジル塩酸塩</a></div></td><td><div>ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</div></td><td><div>製造販売元／株式会社　陽進堂</div><div>販売元／第一三共エスファ株式会社</div><div>販売提携／第一三共株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190012F3096_2_11'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "830001_1190012F3096_2_11"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/830001_1190012F3096_2_11'>SGML</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/downfiles/ph/GUI/830001_1190012F3096_2_00G.pdf'>G_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/2/830001_1190012F3096_2_009_1F.pdf'>F1_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td></tr>
 <tr class='TrColor01'>
-<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/2149027'>マニジピン塩酸塩</a></div></td><td><div>マニジピン塩酸塩錠５mg「YD」／マニジピン塩酸塩錠10mg「YD」／マニジピン塩酸塩錠20mg「YD」</div></td><td><div>製造販売元／株式会社　陽進堂</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149027F1144_1_05'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "830001_2149027F1144_1_05"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/830001_2149027F1144_1_05'>SGML</a></div></td><td></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/1/830001_2149027F1144_1_002_1F.pdf'>F1_マニジピン塩酸塩錠５mg「YD」／マニジピン塩酸塩錠10mg「YD」／マニジピン塩酸塩錠20mg「YD」</a></div></td></tr>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/1190012'>ドネペジル塩酸塩</a></div></td><td><div>ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</div></td><td><div>製造販売元／株式会社　陽進堂</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_1190012F3096_1_11'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "830001_1190012F3096_1_11"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/830001_1190012F3096_1_11'>SGML</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/downfiles/ph/GUI/830001_1190012F3096_1_00G.pdf'>G_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/1/830001_1190012F3096_1_008_1F.pdf'>F1_ドネペジル塩酸塩OD錠３mg「YD」／ドネペジル塩酸塩OD錠５mg「YD」／ドネペジル塩酸塩OD錠10mg「YD」</a></div></td></tr>
+<tr class='TrColor02'>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/1319748'>ブリンゾラミド</a></div></td><td><div>ブリンゾラミド懸濁性点眼液1％「サンド」</div></td><td><div>製造販売／サンド株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/270428_1319748Q1060_1_02'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "270428_1319748Q1060_1_02"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/270428_1319748Q1060_1_02'>SGML</a></div></td><td></td><td></td></tr>
+<tr class='TrColor01'>
+<td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/2149027'>マニジピン塩酸塩</a></div></td><td><div>マニジピン塩酸塩錠５mg「YD」／マニジピン塩酸塩錠10mg「YD」／マニジピン塩酸塩錠20mg「YD」</div></td><td><div>製造販売元／株式会社　陽進堂</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/830001_2149027F1144_1_05'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "830001_2149027F1144_1_05"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/830001_2149027F1144_1_05'>SGML</a></div></td><td></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/1/830001_2149027F1144_1_003_1F.pdf'>F1_マニジピン塩酸塩錠５mg「YD」／マニジピン塩酸塩錠10mg「YD」／マニジピン塩酸塩錠20mg「YD」</a></div></td></tr>
 <tr class='TrColor02'>
 <td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/GeneralList/4490026'>モンテルカストナトリウム</a></div></td><td><div>モンテルカスト錠5mg「日新」／モンテルカスト錠10mg「日新」</div></td><td><div>販売元／Meiji Seika ファルマ株式会社</div><div>製造販売元／日新製薬株式会社</div></td><td><div><a target='_blank' href='/PmdaSearch/iyakuDetail/ResultDataSetPDF/530113_4490026F2296_2_03'>PDF(2021年02月22日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp("PmdaSearch", "530113_4490026F2296_2_03"); return false;'>HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='/PmdaSearch/iyakuDetail/ResultDataSetSGM/530113_4490026F2296_2_03'>SGML</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/downfiles/ph/GUI/530113_4490026F2296_2_02G.pdf'>G_モンテルカスト錠5mg「日新」／モンテルカスト錠10mg「日新」</a></div></td><td><div class='singles'><a target='_blank' href='https://www.info.pmda.go.jp/go/interview/2/530113_4490026F2296_2_006_1F.pdf'>F1_モンテルカスト錠5mg「日新」／モンテルカスト錠10mg「日新」</a></div></td></tr>
 </table>
 <div class='SearchResultMenu mt_15'>
-<p class='col23 PageNavi'><strong>検索結果6件／全1ページ</strong><BR><BR>
+<p class='col23 PageNavi'><strong>検索結果10件／全1ページ</strong><BR><BR>
 <span>1</span></p>
 </div><!-- / #SearchResultMenu -->
 </div><!-- / #SearchWrap02 -->
@@ -1194,7 +1202,7 @@ function exportSearchResult(exportType) {
 <input type="hidden" name="relationDocHowtoSearchBetween12" value="and" id="relationDocHowtoSearchBetween12">
 <input type="hidden" name="relationDocHowtoSearchBetween23" value="and" id="relationDocHowtoSearchBetween23">
 <input type="hidden" name="ListRows" value="1000" id="listRows">
-<input type="hidden" name="searchCnt" value="6" id="searchCnt">
+<input type="hidden" name="searchCnt" value="10" id="searchCnt">
 <input type="hidden" name="totalPages" value="1" id="totalPages">
 <input type="hidden" name="pages" value="1" id="pages">
 <input type="hidden" name="listCategory" value="BOOK" id="listCategory">
