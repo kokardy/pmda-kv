@@ -6,6 +6,7 @@ RUN mkdir -p /asset/data
 COPY bin /asset/bin
 COPY http /http
 COPY daily /asset/
+COPY searchresult /asset/data/searchresult
 RUN cd /http && go build -o server .
 RUN cat /asset/daily >> /var/spool/cron/crontabs/root
 COPY supervisord.conf /etc/supervisord.conf
